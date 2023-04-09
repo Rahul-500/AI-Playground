@@ -1,0 +1,86 @@
+@media only screen and (min-width: 601px){
+  .mainn-navv{
+    margin-top: 0px;
+    box-shadow: 0px 0px 12px black;
+  }
+
+  .talaga{
+    margin-top: 20px;
+  }
+  .talagaaa{
+    margin-top: 18px;
+  }
+  .pravya{
+    margin-top: 18px;
+  }
+  .navvv{
+    background: black;
+  }
+
+  .title{
+    color: peachpuff;
+  }
+
+  .about{
+      margin-left: -20px;
+      color: peachpuff;
+  }
+
+  .dropdown{
+    color: peachpuff;
+    background-color: burlywood;
+    border-radius: 5px;
+    padding: 0px 5px 0px 10px;
+    margin-left: 60px;
+  }
+
+  .Links{
+      margin-left: 850px;
+  }
+
+  .linksss{
+    margin-left: -100px;
+    color: peachpuff;
+  }
+
+  .items Link{
+    color: black;
+  }
+  .rahul{
+    background-image: linear-gradient(to right top, #e9f2f6, #f0f5f9, #f6f8fb, #fbfbfd, #ffffff);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .mainn-navv{
+      box-shadow: 5px 6px 8px #fffdfd;
+    }
+
+    .Links {
+      margin-left: 0px;
+    }
+    .navvv{
+      background: rgb(245, 245, 245);
+      background-image: linear-gradient(to right top, #57c1fe, #81b4ff, #b0a2fb, #d98ee3, #f67abe);
+      box-shadow: 0px 5px 12px whitesmoke;
+    }
+    .linksss{
+      color: black;
+    }
+    .about{
+      color: black;
+    }
+    .title{
+      color: black;
+    }
+    .droppppp{
+      color: black;
+      font-size: larger;
+      font-weight: 500;
+     
+    }
+    .rahul{
+      background-image: linear-gradient(to right top, #e9f2f6, #f0f5f9, #f6f8fb, #fbfbfd, #ffffff);
+    }
+  }

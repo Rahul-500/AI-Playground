@@ -1,0 +1,475 @@
+@media only screen and (min-width: 601px){
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: row;
+}
+
+
+.image{
+    margin-top: -250px;
+    height: 600px;
+    width: fit-content;
+    transition: all ease-in-out .5s;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 8px 0px rgb(255, 222, 222);
+}
+.imageee{
+    margin-top: -600px;
+    width: 400px;
+    height: 600px;
+    transition: all ease-in-out .5s;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 8px 0px rgb(255, 222, 222);
+    object-fit: fill;
+}
+.imagee{
+    margin-top: 120px;
+    width: 400px;
+    height: 600px;
+    transition: all ease-in-out .5s;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 8px 0px rgb(255, 222, 222);
+    margin-left: -50px;
+    object-fit: fill;
+}
+
+.flexx{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    margin-top: 130px;
+    margin-left: 300px;
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+    float: right;
+}
+
+
+.main-body-chatgptt
+{
+
+    background-image: url("highway.jpg");
+    color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100.2vh;
+    margin: 0;
+    padding: 0;
+    margin-top: -76px;
+}
+
+.areaa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: row;
+}
+
+.lefttt{
+    margin-left: 150px;
+    width: 50%;
+}
+
+.righttt{
+    margin-right: 150px;
+    width: 30%;
+    float: right;
+}
+
+.btn-299,
+.btn-299 *,
+.btn-299 :after,
+.btn-299 :before,
+.btn-299:after,
+.btn-299:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-299 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #1b1212;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 80%;
+  font-weight: 500;
+  line-height: 0.8;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.btn-299:disabled {
+  cursor: default;
+}
+.btn-299:-moz-focusring {
+  outline: auto;
+}
+.btn-299 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-299 [hidden] {
+  display: none;
+}
+.btn-299 {
+  --tilt: 30px;
+  border-width: 1px;
+  display: grid;
+  padding: 1rem 2rem;
+  place-content: center;
+}
+.btn-299,
+.btn-299 .text-container {
+  overflow: hidden;
+  position: relative;
+}
+.btn-299 .text-container {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.btn-299 .text {
+  display: block;
+  font-weight: 500;
+  mix-blend-mode: difference;
+  position: relative;
+}
+.btn-299:hover .text {
+  -webkit-animation: move-right-alternate 0.3s ease forwards;
+  animation: move-right-alternate 0.3s ease forwards;
+}
+.btn-299:hover{
+    border: 2px solid black;
+}
+@-webkit-keyframes move-right-alternate {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(80%);
+  }
+  51% {
+    transform: translateX(-80%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes move-right-alternate {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(80%);
+  }
+  51% {
+    transform: translateX(-80%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.btn-299:before {
+  -webkit-animation: move-out 0.3s ease;
+  animation: move-out 0.3s ease;
+  background: #fff;
+  -webkit-clip-path: polygon(
+    0 0,
+    calc(100% - var(--tilt)) 0,
+    100% 50%,
+    calc(100% - var(--tilt)) 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 0,
+    calc(100% - var(--tilt)) 0,
+    100% 50%,
+    calc(100% - var(--tilt)) 100%,
+    0 100%
+  );
+  content: "";
+  height: 100%;
+  left: calc(-100% - var(--tilt));
+  position: absolute;
+  top: 0;
+  width: calc(100% + var(--tilt));
+}
+.btn-299:hover:before {
+  -webkit-animation: move-in 0.3s ease forwards;
+  animation: move-in 0.3s ease forwards;
+}
+@-webkit-keyframes move-in {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+@keyframes move-in {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+@-webkit-keyframes move-out {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(200%);
+  }
+}
+@keyframes move-out {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(200%);
+  }
+}
+
+.textarea-111 {
+    margin-top: 250px;
+    margin-left: -40px;
+}
+
+
+
+.textarea-22 {
+    height: 30em;
+    width: 30em;
+    transition: all ease-in-out .5s;
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid rgba(0,0,0,.5);
+    border-radius: 10px;
+    padding: .5em;
+    font-size: 1em;
+    border: 2px solid white;
+    /* background-color: #1b1212; */
+    background-color: transparent;
+    /* color:rgb(249, 197, 152); */
+    color: whitesmoke;
+    font-weight: 500;
+    margin-top: 230px;
+    margin-left: -600px;
+
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 5px 0px rgb(255, 222, 222);
+}
+  
+  
+  body {
+    font-family:  sans-serif;
+    font-size: 16px;
+  }
+
+  .buttonn{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: 100px;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 5px 0px rgb(255, 222, 222);
+  }
+  .buttonnn{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: -30px;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 5px 0px rgb(255, 222, 222);
+  }
+
+  .loadinggg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -350px;
+    margin-right: -50px;
+  }
+
+  .loading-111{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    float: right;
+    margin-right: -20px;
+  }
+
+  input::file-selector-button {
+    visibility: hidden;
+  }
+  
+  .input-upload {
+    color: transparent;
+  }
+  
+  .input-upload::before {
+    content: "Select black & White file...";
+    display: inline-block;
+    background: rgb(253, 177, 111);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+    color: black;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 5px 0px rgb(255, 222, 222);
+  }
+  .toast-message{
+   
+    border-radius: 15px;
+    border: 2px solid black;
+  }
+  .extrass{
+    margin-top: -55px;
+    margin-left: 380px;
+    border: 1px solid white;
+    padding: 0.8rem 1rem;
+    font-size: 60%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+.main-body-chatgptt {
+  background-image: url("highway.jpg");
+  color: aliceblue;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 105%;
+  height: 135vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagee{
+  margin-top: 25px;
+  transition: all ease-in-out .5s;
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 8px 0px rgb(255, 222, 222);
+  object-fit: fill;
+  height: 400px;
+  width: 320px;
+  margin-left: 10px;
+}
+.imageee{
+  margin-top: 40px;
+  transition: all ease-in-out .5s;
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 8px 0px rgb(255, 222, 222);
+  object-fit: fill;
+  height: 400px;
+  width: 320px;
+  margin-left: -25px;
+}
+.lleeftt{
+  margin-left: -170px;
+  width: 50%;
+}
+.tteeextarea-11 {
+  margin-top: 30px;
+  margin-right: 0px;
+  margin-left: 50px;
+}
+
+input::file-selector-button {
+  visibility: hidden;
+}
+
+.input-upload {
+  color: transparent;
+  
+  margin-top: 40px;
+}
+
+.input-upload::before {
+  content: "Select black & White file...";
+  display: inline-block;
+  background: rgb(253, 177, 111);
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px 8px;
+  cursor: pointer;
+  color: black;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 5px 0px rgb(255, 222, 222);
+}
+
+.buttonnn{
+  margin-left: 70px;
+  width: 200px;
+  margin-top: 20px;
+  
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  border: 2px solid white;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 5px 0px rgb(255, 222, 222);
+}
+.loadinggg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.extrass{
+  margin-top: -50px;
+  margin-left: 200px;
+  border: 1px solid white;
+  padding: 0.8rem 1rem;
+  font-size: 60%;
+  width: 30%;
+}
+
+}
