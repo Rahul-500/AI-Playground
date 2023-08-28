@@ -13,7 +13,7 @@ const ChatGPT = () => {
     const [loading, setLoading] = useState(false);
 
     const configuration = new Configuration({
-        apiKey: "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"
+        apiKey: process.env.REACT_APP_API_KEY
     });
     const openai = new OpenAIApi(configuration);
 
