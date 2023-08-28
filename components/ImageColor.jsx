@@ -40,7 +40,7 @@ function ImageColor() {
     const options = {
       method: 'POST',
       headers: {
-        'X-RapidAPI-Key': 'bd11bcac6emsh044ae5f894396dep1a669djsn49c3bb053ae8',
+        'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
         'X-RapidAPI-Host': 'image-colorization2.p.rapidapi.com'
       },
       body: formData
