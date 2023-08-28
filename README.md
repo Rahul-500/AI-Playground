@@ -6,3 +6,7 @@ A brief glimpse of the app ::
 Minimal ChatGPT Clone ::
 
 ![Screenshot (234)](https://github.com/Rahul-500/AI-Playground/assets/94467838/c625ad52-d123-4370-9edf-87cafc021dc1)
+
+AI Image Generator ::
+
+![Screenshot (235)](https://github.com/Rahul-500/AI-Playground/assets/94467838/883add44-7aaa-40a0-8336-673e8f7a4ee8)
