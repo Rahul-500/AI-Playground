@@ -10,7 +10,7 @@ const Meme = () => {
       const options = {
         method: 'GET',
         headers: {
-          'X-RapidAPI-Key': '2ba8b25405msh6606fcf43773c0fp104f29jsn6d029addb96b',
+          'X-RapidAPI-Key': process.env.REACT_APP_API_KEY',
           'X-RapidAPI-Host': 'programming-memes-images.p.rapidapi.com'
         }
       };
